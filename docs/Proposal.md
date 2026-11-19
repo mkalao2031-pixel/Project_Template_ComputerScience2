@@ -26,7 +26,7 @@ Feature 1: Real-time data monitoring
 Feature 2: Student identification system 
 Feature 3: Fast data inputting
 Feature 4: Data recording system
-Feature 5: real-time status update system
+Feature 5: real-time status record system
 (You may add more features if you like.)
 
 ⌨️ Planned Inputs and Outputs
@@ -38,7 +38,7 @@ What kind of data will the user provide (if any)?
 
 
 What kind of results will your program display?
--Student's Time in (time,  
+-Student's Time in   
 -Student's status (on-time, tardy, absent)
 
 🧠 Logic Plan
@@ -58,9 +58,7 @@ elif student A input is empty
 student A is absent
 else 
 Invalid student ID
-time out
-input student A ID 
-student has left campus
+
 Flowchart
 Attach or draw a flowchart showing how the program will work.
 
