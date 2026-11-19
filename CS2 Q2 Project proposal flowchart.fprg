@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="CS2 Q2 Project proposal flowchart"/>
+        <attribute name="authors" value="USER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-11-19 08:28:13 pm"/>
+        <attribute name="created" value="VVNFUjtMQVBUT1AtNVRHUEpVNTg7MjAyNi0xMS0xOTswNjo1NTowMiBwbTsyNzMy"/>
+        <attribute name="edited" value="VVNFUjtMQVBUT1AtNVRHUEpVNTg7MjAyNi0xMS0xOTswODoyODoxMyBwbTsxOzI4NDQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ID, timein, ontime" type="Integer" array="False" size=""/>
+            <assign variable="ontime" expression="9"/>
+            <assign variable="ID" expression="1230"/>
+            <output expression="&quot;Enter ID&quot;" newline="True"/>
+            <input variable="ID"/>
+            <if expression="ID = 1230">
+                <then>
+                    <output expression="&quot;Enter the time you arrived(am)&quot;" newline="True"/>
+                    <input variable="timein"/>
+                    <if expression="timein &lt;= ontime">
+                        <then>
+                            <output expression="&quot;You are on-time&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="timein &gt; ontime">
+                                <then>
+                                    <output expression="&quot;You are late&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;You are absent&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;Invalid input, please retry and enter valid ID&quot;" newline="True"/>
+                    <breakpoint expression="" always="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
