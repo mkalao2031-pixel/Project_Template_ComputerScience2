@@ -1,4 +1,4 @@
-# Project_Template_ComputerScience2
+# Anthurium_Group 9_ComputerScience2
 
 # 📊 Data Insights Dashboard Project
 
