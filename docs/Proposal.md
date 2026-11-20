@@ -7,13 +7,16 @@ What real-world problem does your project want to solve?
 Describe the issue or need you identified.
 Explain why this problem is relevant and worth solving.
 Relate the problem to the dataset you selected (e.g., hospital, ecommerce, students, etc.).
+
 We want to solve the following which are common problems found with attendance monitoring systems:
 Human error: People can type data wrongly and make mistakes, which could lead to improper and unintentional mistakes.
 Buddy Punching: Other students may sign attendance in and out for their classmates or friends which can lead to dishonesty, and encouragement of skipping classes.
 Lack of Real-Time Monitoring: Some systems do not provide real-time data which can be difficult to track and monitor.
 These problems relate and are commonly found with attendance monitoring systems in most schools (Our chosen JSON dataset is the attendance).
+
 🎯 Project Objectives
 Write at least 2–3 clear objectives your project aims to achieve. Example:
+
 Objective 1: Create a program that accurately tracks attendance in real-time
 Objective 2: To prevent dishonest acts with intentions to skip classes or programs
 Objective 3: To prevent accidents because of human or system error
@@ -39,20 +42,21 @@ What kind of data will the user provide (if any)?
 
 What kind of results will your program display?
 -Student's Time in   
--Student's status (on-time, tardy, absent)
+-Student's status (on-time, tardy/, absent)
 
 🧠 Logic Plan
 Describe your program’s logic:
 
 Pseudocode
 Write your steps in plain English.
+
 Begin 
 Time in
 Select student profile
 Input student A ID
-if student A ID input is current time <= 7:30
+if student A ID input is current time <= 7:00
 student A is on-time
-elif student A ID input is current > 7:30 
+elif student A ID input is current > 7:00
 student A is tardy
 elif student A input is empty
 student A is absent
