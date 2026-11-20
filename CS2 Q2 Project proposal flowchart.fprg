@@ -4,15 +4,16 @@
         <attribute name="name" value="CS2 Q2 Project proposal flowchart"/>
         <attribute name="authors" value="USER"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2026-11-19 08:28:13 pm"/>
+        <attribute name="saved" value="2026-11-20 08:01:47 am"/>
         <attribute name="created" value="VVNFUjtMQVBUT1AtNVRHUEpVNTg7MjAyNi0xMS0xOTswNjo1NTowMiBwbTsyNzMy"/>
         <attribute name="edited" value="VVNFUjtMQVBUT1AtNVRHUEpVNTg7MjAyNi0xMS0xOTswODoyODoxMyBwbTsxOzI4NDQ="/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtXSU4tQ0w3TUg4NkxPUjM7MjAyNi0xMS0yMDswODowMTo0NyBhbTsxOzM4NDA="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
             <declare name="ID, timein, ontime" type="Integer" array="False" size=""/>
-            <assign variable="ontime" expression="9"/>
+            <assign variable="ontime" expression="7"/>
             <assign variable="ID" expression="1230"/>
             <output expression="&quot;Enter ID&quot;" newline="True"/>
             <input variable="ID"/>
