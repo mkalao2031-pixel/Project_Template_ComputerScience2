@@ -65,5 +65,6 @@ Invalid student ID
 
 Flowchart
 Attach or draw a flowchart showing how the program will work.
+(CS2 Q2 Project proposal flowchart.fprg)
 
 
