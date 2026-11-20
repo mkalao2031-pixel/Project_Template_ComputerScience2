@@ -42,7 +42,7 @@ What kind of data will the user provide (if any)?
 
 What kind of results will your program display?
 -Student's Time in   
--Student's status (on-time, tardy/, absent)
+-Student's status (on-time, tardy, absent)
 
 🧠 Logic Plan
 Describe your program’s logic:
